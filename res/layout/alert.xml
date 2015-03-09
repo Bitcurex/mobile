@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dip"
+        android:orientation="vertical"
+        android:background="@drawable/fragment" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alertInfo" />
+
+        <CheckBox
+            android:id="@+id/enableAlert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enableAlert" />
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/notificationWay"
+                android:textSize="15sp" />
+
+            <Spinner
+                android:id="@+id/notificationSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff" />
+            
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/maxAlertHintPLN"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/maxAlertPLN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:text="@string/maxAlert"
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/minAlertHintPLN"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/minAlertPLN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:textSize="13sp"
+            android:text="@string/minAlert" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/maxAlertHintEUR"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/maxAlertEUR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:text="@string/maxAlert"
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/minAlertHintEUR"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/minAlertEUR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:textSize="13sp"
+            android:text="@string/minAlert" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/maxAlertHintUSD"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/maxAlertUSD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:text="@string/maxAlert"
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/minAlertHintUSD"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/minAlertUSD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:textSize="13sp"
+            android:text="@string/minAlert" />
+        
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2.5dip"
+            android:text="@string/save"
+            android:onClick="click" />
+        
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/menu"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/menu_background"
+        android:choiceMode="singleChoice"
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/menu_selector" />
+
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+	android:id="@+id/market" >
+
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:background="@drawable/border"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="2dip" />
+    
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:background="@drawable/border"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="2dip" />
+
+     <TextView
+        android:id="@+id/price"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:background="@drawable/border"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="2dip" />
+     
+     <TextView
+        android:id="@+id/amount"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:background="@drawable/border"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="2dip" />
+     
+     <TextView
+        android:id="@+id/value"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:background="@drawable/border"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="2dip" />
+     
+</LinearLayout>

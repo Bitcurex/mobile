@@ -1,0 +1,46 @@
+# view res/layout/account.xml #generated:2
+# view res/layout/alert.xml #generated:2
+# view res/layout/keys.xml #generated:2
+# view res/layout/logged.xml #generated:2
+# view res/layout/login.xml #generated:2
+# view res/layout/logout.xml #generated:2
+# view res/layout/logout_finished.xml #generated:2
+# view res/layout/market.xml #generated:2
+# view res/layout/trade.xml #generated:2
+-keep class android.support.v4.widget.DrawerLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:25
+-keep class com.programmerpeter.android.bitcurex.AccountActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:28
+-keep class com.programmerpeter.android.bitcurex.AlertActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:29
+-keep class com.programmerpeter.android.bitcurex.AlertReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:26
+-keep class com.programmerpeter.android.bitcurex.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:27
+-keep class com.programmerpeter.android.bitcurex.LogoutActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:30
+-keep class com.programmerpeter.android.bitcurex.MarketActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:19
+-keep class com.programmerpeter.android.bitcurex.TradeActivity { <init>(...); }
+
+# onClick res/layout/alert.xml #generated:128
+# onClick res/layout/keys.xml #generated:42
+# onClick res/layout/keys.xml #generated:69
+# onClick res/layout/keys.xml #generated:79
+# onClick res/layout/login.xml #generated:20
+# onClick res/layout/logout.xml #generated:20
+# onClick res/layout/offer_list.xml #generated:44
+# onClick res/layout/order_list.xml #generated:2
+# onClick res/layout/trade.xml #generated:166
+# onClick res/layout/trade.xml #generated:188
+# onClick res/layout/trade.xml #generated:45
+# onClick res/layout/trade.xml #generated:52
+-keepclassmembers class * { *** click(...); }
+

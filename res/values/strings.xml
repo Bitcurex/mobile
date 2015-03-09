@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">Bitcurex</string>
+	<string-array name="menu">
+	    <item>Trade</item>
+	    <item>Market</item>
+	    <item>Account</item>
+	    <item>Alert</item>
+	    <item>Log In</item>
+	    <item>Log Out</item>
+	</string-array>
+	<string-array name="refresh">
+	    <item>5 seconds</item>
+	    <item>10 seconds</item>
+	    <item>30 seconds</item>
+	    <item>60 seconds</item>
+	    <item>Disabled</item>
+	</string-array>
+	<string-array name="notification">
+	    <item>Vibrations</item>
+	    <item>Sound</item>
+	    <item>Vibrations and Sound</item>
+	</string-array>
+	<string-array name="market">
+	    <item>BTC/PLN</item>
+	    <item>BTC/EUR</item>
+	    <item>BTC/USD</item>
+	</string-array>
+	<string-array name="language">
+	    <item>Polish</item>
+	    <item>English</item>
+	</string-array>
+	<string name="activeBalance">Active balance:</string>
+	<string name="blockedBalance">Locked balance:</string>
+	<string name="typeAPIKey">Type API key:</string>
+	<string name="typePrivateKey">Type private key:</string>
+	<string name="APIKey">API key</string>
+	<string name="privateKey">private key</string>
+	<string name="userID">user ID</string>
+	<string name="typeUserID">Type user ID:</string>
+	<string name="loggedCorectly">Logged correctly.</string>
+	<string name="next">Next</string>
+	<string name="selectMarket">Select market: </string>
+	<string name="buying">Bid:</string>
+	<string name="selling">Ask:</string>
+	<string name="last">Last:</string>
+	<string name="volume">Volume:</string>
+	<string name="minimum">Minimum:</string>
+	<string name="maximum">Maximum:</string>
+	<string name="buy">Buy</string>
+	<string name="sell">Sell</string>
+	<string name="rate">Rate</string>
+	<string name="value">Amount</string>
+	<string name="buyOffers">Bids:</string>
+	<string name="sellOffers">Asks:</string>
+	<string name="instructionAPI">If you want log in to app, generate API key in your account settings. Warning, if somebody get your phone, delete generated key.</string>
+	<string name="multiplicationChar">×</string>
+	<string name="equalsChar">=</string>
+	<string name="delete">Delete</string>
+	<string name="offers">Offers:</string>
+	<string name="logo">Logo</string>
+	<string name="scan_qr">Scan QR</string>
+	<string name="login_title">Bitcurex - Log In</string>
+	<string name="trade_title">Bitcurex - Trade</string>
+	<string name="account_title">Bitcurex - Account</string>
+	<string name="logout_title">Bitcurex - Log Out</string>
+	<string name="alert_title">Bitcurex - Alert</string>
+	<string name="market_title">Bitcurex - Market</string>
+	<string name="no_internet">No internet connection</string>
+	<string name="error">Error occurred</string>
+	<string name="not_logged">You are not logged</string>
+	<string name="offer_canceled">Offer canceled</string>
+	<string name="invalid_keys">Invalid keys</string>
+	<string name="no_key">Type key</string>
+	<string name="bid">Bid</string>
+	<string name="ask">Ask</string>
+	<string name="type">Type</string>
+	<string name="currency">Currency</string>
+	<string name="transaction_made">Offer accepted</string>
+	<string name="open">Open</string>
+	<string name="close">Close</string>
+	<string name="logout">Logout</string>
+	<string name="instructionLogout">If you want to log out from app press next. WARNING! All API keys on this device will be deleted.</string>
+	<string name="logoutCorrectly">Logout correctly</string>
+	<string name="enableAlert">Enable Alert</string>
+	<string name="alertInfo">If you enable alert, application will notify you, when rate increase or decrease to specific value.</string>
+	<string name="minAlertHintUSD">Notify me if BTC/USD rate decrease to:</string>
+	<string name="maxAlertHintUSD">Notify me if BTC/USD rate increase to:</string>
+	<string name="minAlertHintPLN">Notify me if BTC/PLN rate decrease to</string>
+	<string name="maxAlertHintPLN">Notify me if BTC/PLN rate increase to</string>
+	<string name="minAlertHintEUR">Notify me if BTC/EUR rate decrease to</string>
+	<string name="maxAlertHintEUR">Notify me if BTC/EUR rate increase to</string>
+	<string name="minAlert">0</string>
+	<string name="maxAlert">9999</string>
+	<string name="save">Save</string>
+	<string name="invalid_data">Invalid data</string>
+	<string name="saved">Saved</string>
+	<string name="notificationTitle">rate changed!</string>
+	<string name="notificationMax">rate is bigger than </string>
+	<string name="notificationMin">rate is lower than </string>
+	<string name="selectLanguage">Select language:</string>
+	<string name="price">Price (</string>
+	<string name="amount">Amount (BTC)</string>
+	<string name="value2">Value (</string>
+	<string name="date">Date</string>
+	<string name="notificationWay">Notification way</string>
+	<string name="autorefresh">Autorefresh: </string>
+</resources>

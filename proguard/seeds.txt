@@ -1,0 +1,265 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost: void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTabStrip: boolean getDrawFullUnderline()
+android.support.v4.view.PagerTabStrip: int getMinHeight()
+android.support.v4.view.PagerTitleStrip: void setSingleLineAllCaps(android.widget.TextView)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: int getTextSpacing()
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.PagerTitleStrip: int getMinHeight()
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: int getClientWidth()
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: void setChildrenDrawingOrderEnabledCompat(boolean)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.DrawerLayout
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context)
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context,android.util.AttributeSet,int)
+android.support.v4.widget.DrawerLayout: void setScrimColor(int)
+android.support.v4.widget.DrawerLayout: void setDrawerListener(android.support.v4.widget.DrawerLayout$DrawerListener)
+android.support.v4.widget.DrawerLayout: void setDrawerLockMode(int)
+android.support.v4.widget.DrawerLayout$SavedState
+android.support.v4.widget.DrawerLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SlidingPaneLayout: void setParallaxDistance(int)
+android.support.v4.widget.SlidingPaneLayout: int getParallaxDistance()
+android.support.v4.widget.SlidingPaneLayout: void setSliderFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getSliderFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setCoveredFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getCoveredFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setPanelSlideListener(android.support.v4.widget.SlidingPaneLayout$PanelSlideListener)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawable(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawableLeft(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawableRight(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResource(int)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResourceLeft(int)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResourceRight(int)
+android.support.v4.widget.SlidingPaneLayout$SavedState
+android.support.v4.widget.SlidingPaneLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SwipeRefreshLayout: void setOnRefreshListener(android.support.v4.widget.SwipeRefreshLayout$OnRefreshListener)
+android.support.v4.widget.SwipeRefreshLayout: void setTriggerPercentage(float)
+android.support.v4.widget.SwipeRefreshLayout: void setRefreshing(boolean)
+android.support.v4.widget.SwipeRefreshLayout: void setTargetOffsetTopAndBottom(int)
+com.programmerpeter.android.bitcurex.AccountActivity
+com.programmerpeter.android.bitcurex.AccountActivity: AccountActivity()
+com.programmerpeter.android.bitcurex.AccountActivity: void click(android.view.View)
+com.programmerpeter.android.bitcurex.AlertActivity
+com.programmerpeter.android.bitcurex.AlertActivity: AlertActivity()
+com.programmerpeter.android.bitcurex.AlertActivity: void click(android.view.View)
+com.programmerpeter.android.bitcurex.AlertReceiver
+com.programmerpeter.android.bitcurex.AlertReceiver: AlertReceiver()
+com.programmerpeter.android.bitcurex.BaseActivity: BaseActivity(int,int,boolean)
+com.programmerpeter.android.bitcurex.LoginActivity
+com.programmerpeter.android.bitcurex.LoginActivity: LoginActivity()
+com.programmerpeter.android.bitcurex.LoginActivity: void click(android.view.View)
+com.programmerpeter.android.bitcurex.LogoutActivity
+com.programmerpeter.android.bitcurex.LogoutActivity: LogoutActivity()
+com.programmerpeter.android.bitcurex.LogoutActivity: void click(android.view.View)
+com.programmerpeter.android.bitcurex.MarketActivity
+com.programmerpeter.android.bitcurex.MarketActivity: MarketActivity()
+com.programmerpeter.android.bitcurex.R$array: int language
+com.programmerpeter.android.bitcurex.R$array: int market
+com.programmerpeter.android.bitcurex.R$array: int menu
+com.programmerpeter.android.bitcurex.R$array: int notification
+com.programmerpeter.android.bitcurex.R$array: int refresh
+com.programmerpeter.android.bitcurex.R$color: int menu_background
+com.programmerpeter.android.bitcurex.R$color: int menu_pressed
+com.programmerpeter.android.bitcurex.R$drawable: int border
+com.programmerpeter.android.bitcurex.R$drawable: int button_normal
+com.programmerpeter.android.bitcurex.R$drawable: int button_pressed
+com.programmerpeter.android.bitcurex.R$drawable: int button_selector
+com.programmerpeter.android.bitcurex.R$drawable: int edit_text
+com.programmerpeter.android.bitcurex.R$drawable: int fragment
+com.programmerpeter.android.bitcurex.R$drawable: int ic_drawer
+com.programmerpeter.android.bitcurex.R$drawable: int ic_launcher
+com.programmerpeter.android.bitcurex.R$drawable: int menu_normal
+com.programmerpeter.android.bitcurex.R$drawable: int menu_pressed
+com.programmerpeter.android.bitcurex.R$drawable: int menu_selector
+com.programmerpeter.android.bitcurex.R$id: int amount
+com.programmerpeter.android.bitcurex.R$id: int askList
+com.programmerpeter.android.bitcurex.R$id: int bidList
+com.programmerpeter.android.bitcurex.R$id: int btcAmount
+com.programmerpeter.android.bitcurex.R$id: int btc_active
+com.programmerpeter.android.bitcurex.R$id: int buyButton
+com.programmerpeter.android.bitcurex.R$id: int buyText
+com.programmerpeter.android.bitcurex.R$id: int currency
+com.programmerpeter.android.bitcurex.R$id: int date
+com.programmerpeter.android.bitcurex.R$id: int drawer_layout
+com.programmerpeter.android.bitcurex.R$id: int enableAlert
+com.programmerpeter.android.bitcurex.R$id: int eur_active
+com.programmerpeter.android.bitcurex.R$id: int fiatAmount
+com.programmerpeter.android.bitcurex.R$id: int languageSpinner
+com.programmerpeter.android.bitcurex.R$id: int lastText
+com.programmerpeter.android.bitcurex.R$id: int limit
+com.programmerpeter.android.bitcurex.R$id: int market
+com.programmerpeter.android.bitcurex.R$id: int marketList
+com.programmerpeter.android.bitcurex.R$id: int marketSpinner
+com.programmerpeter.android.bitcurex.R$id: int maxAlertEUR
+com.programmerpeter.android.bitcurex.R$id: int maxAlertPLN
+com.programmerpeter.android.bitcurex.R$id: int maxAlertUSD
+com.programmerpeter.android.bitcurex.R$id: int maximumText
+com.programmerpeter.android.bitcurex.R$id: int menu
+com.programmerpeter.android.bitcurex.R$id: int minAlertEUR
+com.programmerpeter.android.bitcurex.R$id: int minAlertPLN
+com.programmerpeter.android.bitcurex.R$id: int minAlertUSD
+com.programmerpeter.android.bitcurex.R$id: int minimumText
+com.programmerpeter.android.bitcurex.R$id: int next1
+com.programmerpeter.android.bitcurex.R$id: int next2
+com.programmerpeter.android.bitcurex.R$id: int notificationSpinner
+com.programmerpeter.android.bitcurex.R$id: int offer_cancel
+com.programmerpeter.android.bitcurex.R$id: int offers
+com.programmerpeter.android.bitcurex.R$id: int order
+com.programmerpeter.android.bitcurex.R$id: int pln_active
+com.programmerpeter.android.bitcurex.R$id: int price
+com.programmerpeter.android.bitcurex.R$id: int private_key
+com.programmerpeter.android.bitcurex.R$id: int public_key
+com.programmerpeter.android.bitcurex.R$id: int rate
+com.programmerpeter.android.bitcurex.R$id: int rate2
+com.programmerpeter.android.bitcurex.R$id: int rate_mul_amount
+com.programmerpeter.android.bitcurex.R$id: int refreshSpinner
+com.programmerpeter.android.bitcurex.R$id: int scan_private
+com.programmerpeter.android.bitcurex.R$id: int scan_public
+com.programmerpeter.android.bitcurex.R$id: int sellButton
+com.programmerpeter.android.bitcurex.R$id: int sellText
+com.programmerpeter.android.bitcurex.R$id: int title
+com.programmerpeter.android.bitcurex.R$id: int type
+com.programmerpeter.android.bitcurex.R$id: int usd_active
+com.programmerpeter.android.bitcurex.R$id: int user_id
+com.programmerpeter.android.bitcurex.R$id: int value
+com.programmerpeter.android.bitcurex.R$id: int volume
+com.programmerpeter.android.bitcurex.R$id: int volumeText
+com.programmerpeter.android.bitcurex.R$layout: int account
+com.programmerpeter.android.bitcurex.R$layout: int action_bar
+com.programmerpeter.android.bitcurex.R$layout: int alert
+com.programmerpeter.android.bitcurex.R$layout: int keys
+com.programmerpeter.android.bitcurex.R$layout: int logged
+com.programmerpeter.android.bitcurex.R$layout: int login
+com.programmerpeter.android.bitcurex.R$layout: int logout
+com.programmerpeter.android.bitcurex.R$layout: int logout_finished
+com.programmerpeter.android.bitcurex.R$layout: int market
+com.programmerpeter.android.bitcurex.R$layout: int market_list
+com.programmerpeter.android.bitcurex.R$layout: int menu_item
+com.programmerpeter.android.bitcurex.R$layout: int offer_list
+com.programmerpeter.android.bitcurex.R$layout: int offer_list_header
+com.programmerpeter.android.bitcurex.R$layout: int order_list
+com.programmerpeter.android.bitcurex.R$layout: int trade
+com.programmerpeter.android.bitcurex.R$string: int APIKey
+com.programmerpeter.android.bitcurex.R$string: int account_title
+com.programmerpeter.android.bitcurex.R$string: int activeBalance
+com.programmerpeter.android.bitcurex.R$string: int alertInfo
+com.programmerpeter.android.bitcurex.R$string: int alert_title
+com.programmerpeter.android.bitcurex.R$string: int amount
+com.programmerpeter.android.bitcurex.R$string: int app_name
+com.programmerpeter.android.bitcurex.R$string: int ask
+com.programmerpeter.android.bitcurex.R$string: int autorefresh
+com.programmerpeter.android.bitcurex.R$string: int bid
+com.programmerpeter.android.bitcurex.R$string: int blockedBalance
+com.programmerpeter.android.bitcurex.R$string: int buy
+com.programmerpeter.android.bitcurex.R$string: int buyOffers
+com.programmerpeter.android.bitcurex.R$string: int buying
+com.programmerpeter.android.bitcurex.R$string: int close
+com.programmerpeter.android.bitcurex.R$string: int currency
+com.programmerpeter.android.bitcurex.R$string: int date
+com.programmerpeter.android.bitcurex.R$string: int delete
+com.programmerpeter.android.bitcurex.R$string: int enableAlert
+com.programmerpeter.android.bitcurex.R$string: int equalsChar
+com.programmerpeter.android.bitcurex.R$string: int error
+com.programmerpeter.android.bitcurex.R$string: int instructionAPI
+com.programmerpeter.android.bitcurex.R$string: int instructionLogout
+com.programmerpeter.android.bitcurex.R$string: int invalid_data
+com.programmerpeter.android.bitcurex.R$string: int invalid_keys
+com.programmerpeter.android.bitcurex.R$string: int last
+com.programmerpeter.android.bitcurex.R$string: int loggedCorectly
+com.programmerpeter.android.bitcurex.R$string: int login_title
+com.programmerpeter.android.bitcurex.R$string: int logo
+com.programmerpeter.android.bitcurex.R$string: int logout
+com.programmerpeter.android.bitcurex.R$string: int logoutCorrectly
+com.programmerpeter.android.bitcurex.R$string: int logout_title
+com.programmerpeter.android.bitcurex.R$string: int market_title
+com.programmerpeter.android.bitcurex.R$string: int maxAlert
+com.programmerpeter.android.bitcurex.R$string: int maxAlertHintEUR
+com.programmerpeter.android.bitcurex.R$string: int maxAlertHintPLN
+com.programmerpeter.android.bitcurex.R$string: int maxAlertHintUSD
+com.programmerpeter.android.bitcurex.R$string: int maximum
+com.programmerpeter.android.bitcurex.R$string: int minAlert
+com.programmerpeter.android.bitcurex.R$string: int minAlertHintEUR
+com.programmerpeter.android.bitcurex.R$string: int minAlertHintPLN
+com.programmerpeter.android.bitcurex.R$string: int minAlertHintUSD
+com.programmerpeter.android.bitcurex.R$string: int minimum
+com.programmerpeter.android.bitcurex.R$string: int multiplicationChar
+com.programmerpeter.android.bitcurex.R$string: int next
+com.programmerpeter.android.bitcurex.R$string: int no_internet
+com.programmerpeter.android.bitcurex.R$string: int no_key
+com.programmerpeter.android.bitcurex.R$string: int not_logged
+com.programmerpeter.android.bitcurex.R$string: int notificationMax
+com.programmerpeter.android.bitcurex.R$string: int notificationMin
+com.programmerpeter.android.bitcurex.R$string: int notificationTitle
+com.programmerpeter.android.bitcurex.R$string: int notificationWay
+com.programmerpeter.android.bitcurex.R$string: int offer_canceled
+com.programmerpeter.android.bitcurex.R$string: int offers
+com.programmerpeter.android.bitcurex.R$string: int open
+com.programmerpeter.android.bitcurex.R$string: int price
+com.programmerpeter.android.bitcurex.R$string: int privateKey
+com.programmerpeter.android.bitcurex.R$string: int rate
+com.programmerpeter.android.bitcurex.R$string: int save
+com.programmerpeter.android.bitcurex.R$string: int saved
+com.programmerpeter.android.bitcurex.R$string: int scan_qr
+com.programmerpeter.android.bitcurex.R$string: int selectLanguage
+com.programmerpeter.android.bitcurex.R$string: int selectMarket
+com.programmerpeter.android.bitcurex.R$string: int sell
+com.programmerpeter.android.bitcurex.R$string: int sellOffers
+com.programmerpeter.android.bitcurex.R$string: int selling
+com.programmerpeter.android.bitcurex.R$string: int trade_title
+com.programmerpeter.android.bitcurex.R$string: int transaction_made
+com.programmerpeter.android.bitcurex.R$string: int type
+com.programmerpeter.android.bitcurex.R$string: int typeAPIKey
+com.programmerpeter.android.bitcurex.R$string: int typePrivateKey
+com.programmerpeter.android.bitcurex.R$string: int typeUserID
+com.programmerpeter.android.bitcurex.R$string: int userID
+com.programmerpeter.android.bitcurex.R$string: int value
+com.programmerpeter.android.bitcurex.R$string: int value2
+com.programmerpeter.android.bitcurex.R$string: int volume
+com.programmerpeter.android.bitcurex.R$style: int AppTheme
+com.programmerpeter.android.bitcurex.R$style: int button
+com.programmerpeter.android.bitcurex.R$style: int editText
+com.programmerpeter.android.bitcurex.R$style: int listViewStyle
+com.programmerpeter.android.bitcurex.R$style: int menu
+com.programmerpeter.android.bitcurex.R$style: int spinnerDropDownItem
+com.programmerpeter.android.bitcurex.R$style: int spinnerItem
+com.programmerpeter.android.bitcurex.TradeActivity
+com.programmerpeter.android.bitcurex.TradeActivity: TradeActivity()
+com.programmerpeter.android.bitcurex.TradeActivity: void click(android.view.View)

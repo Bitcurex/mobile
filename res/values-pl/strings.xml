@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">Bitcurex</string>
+	<string-array name="menu">
+	    <item>Handel</item>
+	    <item>Rynek</item>
+	    <item>Konto</item>
+	    <item>Alert</item>
+	    <item>Zaloguj się</item>
+	    <item>Wyloguj się</item>
+	</string-array>
+	<string-array name="refresh">
+	    <item>5 sekund</item>
+	    <item>10 sekund</item>
+	    <item>30 sekund</item>
+	    <item>60 sekund</item>
+	    <item>Wyłączone</item>
+	</string-array>
+	<string-array name="notification">
+	    <item>Wibracje</item>
+	    <item>Dźwięk</item>
+	    <item>Wibracje i Dźwięk</item>
+	</string-array>
+	<string-array name="market">
+	    <item>BTC/PLN</item>
+	    <item>BTC/EUR</item>
+	    <item>BTC/USD</item>
+	</string-array>
+	<string-array name="language">
+	    <item>Polski</item>
+	    <item>Angielski</item>
+	</string-array>
+	<string name="activeBalance">Salda aktywne:</string>
+	<string name="blockedBalance">Salda zablokowane:</string>
+	<string name="typeAPIKey">Wprowadź klucz API:</string>
+	<string name="typePrivateKey">Wprowadź klucz prywatny:</string>
+	<string name="APIKey">klucz API</string>
+	<string name="privateKey">klucz prywatny</string>
+	<string name="userID">ID użytkownika</string>
+	<string name="typeUserID">Wprowadź id użytkownika:</string>
+	<string name="loggedCorectly">Poprawnie zalogowano.</string>
+	<string name="next">Przejdź dalej</string>
+	<string name="selectMarket">Wybierz rynek: </string>
+	<string name="buying">Kupno:</string>
+	<string name="selling">Sprzedaż:</string>
+	<string name="last">Ostatnio:</string>
+	<string name="volume">Obrót:</string>
+	<string name="minimum">Minimum:</string>
+	<string name="maximum">Maksimum:</string>
+	<string name="buy">Kup</string>
+	<string name="sell">Sprzedaj</string>
+	<string name="rate">Kurs</string>
+	<string name="value">Ilość</string>
+	<string name="buyOffers">Oferty kupna:</string>
+	<string name="sellOffers">Oferty sprzedaży:</string>
+	<string name="instructionAPI">Aby zalogować się do aplikacji wygeneruj klucz API w ustawieniach swojego konta. Uwaga, jeśli telefon dostanie się w niepowołane ręce, usuń wygenerowny klucz.</string>
+	<string name="multiplicationChar">×</string>
+	<string name="equalsChar">=</string>
+	<string name="delete">Usuń</string>
+	<string name="offers">Oferty:</string>
+	<string name="logo">Logo</string>
+	<string name="scan_qr">Skanuj QR</string>
+	<string name="login_title">Bitcurex - Zaloguj się</string>
+	<string name="trade_title">Bitcurex - Handel</string>
+	<string name="account_title">Bitcurex - Konto</string>
+	<string name="logout_title">Bitcurex - Wyloguj się</string>
+	<string name="alert_title">Bitcurex - Alert</string>
+	<string name="market_title">Bitcurex - Rynek</string>
+	<string name="no_internet">Brak połączenia z internetem</string>
+	<string name="error">Wystąpił nieznany błąd</string>
+	<string name="not_logged">Nie jesteś zalogowany</string>
+	<string name="offer_canceled">Anulowano ofertę</string>
+	<string name="invalid_keys">Nieprawidłowe klucze</string>
+	<string name="no_key">Nie podałeś klucza</string>
+	<string name="bid">Kupno</string>
+	<string name="ask">Sprzedaż</string>
+	<string name="type">Typ</string>
+	<string name="currency">Waluta</string>
+	<string name="transaction_made">Oferta zaakceptowana</string>
+	<string name="open">Otwórz</string>
+	<string name="close">Zamknij</string>
+	<string name="logout">Wyloguj się</string>
+	<string name="instructionLogout">Aby wylogować się z aplikacji przejdź dalej. UWAGA! Spowoduje to usunięcie kluczy API z pamięci urządzenia.</string>
+	<string name="logoutCorrectly">Poprawnie wylogowano</string>
+	<string name="enableAlert">Włącz alert</string>
+	<string name="alertInfo">Jeśli właczysz alert, aplikacja będzie powiadamiała Cię, kiedy kurs spadnie lub wzrośnie do określonej wartości.</string>
+	<string name="minAlertHintUSD">Powiadom mnie przy kursie BTC/USD poniżej:</string>
+	<string name="maxAlertHintUSD">Powiadom mnie przy kursie BTC/USD powyżej:</string>
+	<string name="minAlertHintPLN">Powiadom mnie przy kursie BTC/PLN poniżej:</string>
+	<string name="maxAlertHintPLN">Powiadom mnie przy kursie BTC/PLN powyżej:</string>
+	<string name="minAlertHintEUR">Powiadom mnie przy kursie BTC/EUR poniżej:</string>
+	<string name="maxAlertHintEUR">Powiadom mnie przy kursie BTC/EUR powyżej:</string>
+	<string name="save">Zapisz</string>
+	<string name="invalid_data">Nieprawidłowe dane</string>
+	<string name="saved">Zapisano</string>
+	<string name="notificationTitle">Zmiana kursu!</string>
+	<string name="notificationMax">Kurs jest większy niż </string>
+	<string name="notificationMin">Kurs jest mniejszy niż </string>
+	<string name="selectLanguage">Wybierz język:</string>
+	<string name="price">Cena (</string>
+	<string name="amount">Ilość (BTC)</string>
+	<string name="value2">Wartość (</string>
+	<string name="date">Data</string>
+	<string name="notificationWay">Sposób powiadomienia:</string>
+	<string name="autorefresh">Odświeżanie: </string>
+</resources>

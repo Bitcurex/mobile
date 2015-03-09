@@ -1,0 +1,44 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light">
+        <item name="android:textSize">11sp</item>
+        <item name="android:spinnerItemStyle">@style/spinnerItem</item> 
+        <item name="android:spinnerDropDownItemStyle">@style/spinnerDropDownItem</item>
+        <item name="android:listViewStyle">@style/listViewStyle</item>
+        <item name="android:buttonStyle">@style/button</item>
+        <item name="android:editTextStyle">@style/editText</item>
+    </style>
+    
+    <style name="spinnerItem">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="spinnerDropDownItem">
+        <item name="android:padding">20dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    
+    <style name="listViewStyle" parent="@android:style/Widget.ListView">
+        <item name="android:divider">#00000000</item>
+        <item name="android:dividerHeight">0px</item>
+	</style>
+	
+    <style name="button">
+        <item name="android:background">@drawable/button_selector</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:paddingTop">2.5dip</item>
+        <item name="android:paddingBottom">2.5dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+    </style>
+    
+    <style name="menu">
+        
+    </style>
+    
+    <style name="editText" parent="android:style/Widget.EditText">
+        <item name="android:background">@drawable/edit_text</item>
+    </style>
+    
+</resources>
